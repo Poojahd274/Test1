@@ -6,4 +6,5 @@ main() {
      biggest3();
      sum2();
      fibonacci();
+     biggest23();
 }
