@@ -1,5 +1,5 @@
 #include <stdio.h>
-biggest2(){
+biggest23(){
     int a, b;
 
     // Asking for Input
