@@ -1,5 +1,5 @@
-ABC.exe:big2.o fact.o rev.o pallin.o big3.o sum2.o fiba.o main.o big23.o
-	gcc -o ABC.exe big2.o fact.o rev.o pallin.o big3.o sum2.o fiba.o main.o big23.o
+ABC.exe:big2.o fact.o rev.o pallin.o big3.o sum2.o fiba.o main.o
+	gcc -o ABC.exe big2.o fact.o rev.o pallin.o big3.o sum2.o fiba.o main.o
 
 big2.o:big2.c
 	gcc -c big2.c
@@ -17,5 +17,3 @@ fiba.o:fiba.c
 	gcc -c fiba.c
 main.o:main.c
 	gcc -c main.c
-big23.o:big23.c
-	gcc -c big23.c
